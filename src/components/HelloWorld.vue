@@ -1,43 +1,23 @@
+<!--<script setup>
+Propósito: Es la parte donde defines la lógica de tu componente utilizando la API de Composition de Vue 3.
+
+Funcionalidad: Aquí se definen variables reactivas, funciones, importaciones y lógica del componente. Esta sintaxis hace que el código sea más limpio y sencillo. -->
 <script setup>
-import { ref } from 'vue'
 
-defineProps({
-  msg: String,
-})
-
-const count = ref(0)
 </script>
+<!-- <template>
+Propósito: Contiene la estructura HTML del componente, es decir, la interfaz de usuario (UI) que se renderiza.
 
+Funcionalidad: Dentro de este bloque defines cómo se verá tu componente, enlazando los datos y funciones con la interfaz visual. Usa directivas de Vue para trabajar con la reactividad y el comportamiento del componente.-->
 <template>
-  <h1>{{ msg }}</h1>
 
-  <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
-    <p>
-      Edit
-      <code>components/HelloWorld.vue</code> to test HMR
-    </p>
-  </div>
-
-  <p>
-    Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
-  </p>
-  <p>
-    Learn more about IDE Support for Vue in the
-    <a
-      href="https://vuejs.org/guide/scaling-up/tooling.html#ide-support"
-      target="_blank"
-      >Vue Docs Scaling up Guide</a
-    >.
-  </p>
-  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
 </template>
+<!--<style scoped>
+Propósito: Define los estilos CSS del componente.
 
+Funcionalidad: El atributo scoped asegura que los estilos definidos aquí solo se apliquen a este componente específico, sin afectar a otros componentes en la misma aplicación. -->
 <style scoped>
-.read-the-docs {
-  color: #888;
-}
+
 </style>
+
+
